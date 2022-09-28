@@ -1,1 +1,17 @@
+function setAlarm(employed, vacation){
+ let a = 'employed'
+ let b = 'vacation'
+ let c
+ if (c = a) {
+   return true
+ }
+  if (c = b) {
+    return false
+  }
+}
 
+Верное решение простейшее)
+
+function setAlarm(employed, vacation){
+ return employed && !vacation
+}
