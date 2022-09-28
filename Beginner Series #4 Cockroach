@@ -1,0 +1,6 @@
+моё решение 
+function cockroachSpeed(s) {
+  let b
+  b = s * 27.76
+  return b
+}
