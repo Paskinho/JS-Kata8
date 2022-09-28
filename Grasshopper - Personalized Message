@@ -4,3 +4,12 @@ function greet (name, owner) {
   }
   else return 'Hello guest'
 }
+
+Три равно
+
+Можно через условный оператора ?
+
+
+function greet (name, owner) {
+  return name === owner ? 'Hello boss' :  'Hello guest';
+}
