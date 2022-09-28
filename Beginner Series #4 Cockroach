@@ -1,6 +1,15 @@
 моё решение 
 function cockroachSpeed(s) {
   let b
-  b = s * 27.76
+  b = s * 27.7778
   return b
+}
+
+Верное:
+Нужно добавить округление
+
+function cockroachSpeed(s) {
+  let b
+  b = s * 27.7778
+  return Math.floor(b)
 }
