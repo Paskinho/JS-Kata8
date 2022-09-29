@@ -1,0 +1,29 @@
+Моё решение 
+function correct(string)
+{
+	if string.includes('s') {
+    return string.replace(/s/gi, 5)
+  }
+  else if string.includes('O') {
+    return string.replace(/O/gi, 0)
+  }
+  else if string.includes('I') {
+    return string.replace(/I/gi, 1)
+  }
+}
+
+
+function correct(string)
+{
+  let correct = (string) => string.replace(/5/gi, 'S')
+	.string.replace(/0/gi, 'O')
+  .string.replace(/1/gi, 'I')
+  return correct
+}
+
+Решение простейшее
+function correct(string)
+{
+  return string.replace(/0/g, "O").replace(/1/g, "I").replace(/5/g, "S");
+}
+Через replace замена символа в строке.
