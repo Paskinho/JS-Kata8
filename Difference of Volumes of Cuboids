@@ -1,1 +1,14 @@
+моё изначальное решение
 
+function findDifference(a, b) {
+  return (a > b) ? (a - b) : (b - a);
+}
+
+самое популярное решение 
+function findDifference(a, b) {
+  return Math.abs(a[0]*a[1]*a[2] - b[0]*b[1]*b[2]);
+}
+
+и 
+
+return Math.abs(a.reduce((previous, current) => previous * current) - b.reduce((previous, current) => previous * current));
