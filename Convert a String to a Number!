@@ -1,0 +1,9 @@
+const stringToNumber = function(str){
+  return parseInt(str);
+}
+
+ещё вариант:
+var stringToNumber = function(str){
+  // put your code here
+  return Number(str);
+}
