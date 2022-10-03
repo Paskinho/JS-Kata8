@@ -1,1 +1,8 @@
-
+моё решение 
+function numberToString(num) {
+  if (Number.isInteger(num)) {
+    return 'num'
+  }
+  else return 'error'
+  }
+  
