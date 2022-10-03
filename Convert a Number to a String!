@@ -6,3 +6,10 @@ function numberToString(num) {
   else return 'error'
   }
   
+  Решение простейшее
+  
+  function numberToString(num) {
+ return num.toString()
+  }
+  
+  .tostring перевод в строку)
