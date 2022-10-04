@@ -1,0 +1,9 @@
+Моё решение (оно же правильное)
+
+function litres(time) {
+  let n = time * 0.5
+  if (time > 0) {
+    return Math.floor(n) 
+  }
+  else return 0;
+}
