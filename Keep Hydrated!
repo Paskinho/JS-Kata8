@@ -7,3 +7,11 @@ function litres(time) {
   }
   else return 0;
 }
+
+
+решение в одну строку:
+
+
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
