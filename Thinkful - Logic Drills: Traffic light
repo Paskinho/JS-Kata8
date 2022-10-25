@@ -8,3 +8,12 @@ function updateLight(current) {
            }
 else return "green"
 }
+
+
+В одну строчку 
+
+function updateLight(current) {
+  
+  return current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
+
+}
