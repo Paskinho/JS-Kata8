@@ -2,3 +2,7 @@ function doubleInteger(i) {
    i += i
     return i
 }
+
+
+Простейшее решение
+  return i * 2;
