@@ -1,3 +1,8 @@
 function greet(name){
   return "Hello, " + name + " how are you doing today?"
 }
+
+имя через $ 
+function greet(name){
+  return `Hello, ${name} how are you doing today?`;
+}
