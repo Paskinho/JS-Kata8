@@ -1,1 +1,13 @@
+my code
 
+
+function checkForFactor (base, factor) {
+  (base >= 0 && factor > 0 && factor % base === 0 && factor % base !== undefined )
+? true : false
+}
+
+верный и самый краткий 
+
+function checkForFactor (base, factor) {
+return base % factor == 0
+}
