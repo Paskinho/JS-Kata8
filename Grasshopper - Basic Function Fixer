@@ -7,3 +7,9 @@ function addFive(num) {
   var total = num + 5
   return num
 }
+
+Решение 
+function addFive(num) {
+  let total = num + 5
+  return total
+}
