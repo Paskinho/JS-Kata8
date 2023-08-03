@@ -29,3 +29,10 @@ function xor(a, b) {
   }
   // TODO: Program Me
 }
+
+
+minimal solution
+
+function xor(a, b) {
+  return a != b;
+}
