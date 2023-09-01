@@ -17,3 +17,11 @@ function sumArray(array) {
 }
 
 Solution
+
+function sumArray(array) {
+  if(!array) return 0; Если нет массива, то возвращаем ноль
+ if (array.length < 3) return 0; если длина массива меньше трёх возвращаем ноль
+  const sorted = array.sort ((n1,n2) => n1 - n2); сортируем массив от большего к меньшему
+  return sorted.slice(1, -1).reduce((t, current) => t + current); методом slice возвращаем новвый массив, начиная с второго элемента  и заканчивая вторым с конца
+и затем методом reduce суммируем эти элементы
+}
