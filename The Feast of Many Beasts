@@ -7,3 +7,15 @@ Assume that beast and dish are always lowercase strings, and that each has at le
 function feast(beast, dish) {
 //your function here
 }
+
+Solution
+
+function feast(beast, dish) {
+  let arrBeast = beast.split('')
+  let arrDish = dish.split('')
+  
+ return arrBeast[0] === arrDish [0] && 
+   arrBeast[arrBeast.length - 1] === arrDish [arrDish.length - 1] ? true 
+  : false
+//your function here
+}
