@@ -8,3 +8,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 function take(arr, n) {
   // Your code here
 }
+
+Solution 
+
+function take(arr, n) {
+ return arr.slice(0, n) slice method return new array with start from 0 element and ending to n elements
+}
