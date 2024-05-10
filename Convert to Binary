@@ -17,3 +17,8 @@ function toBinary(n){
   return n;
 }
 
+//SOLUTION
+
+function toBinary(n){
+  return Number(n.toString(2))
+}
